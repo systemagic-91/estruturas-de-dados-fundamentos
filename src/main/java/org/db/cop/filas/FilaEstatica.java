@@ -7,8 +7,8 @@ public class FilaEstatica<T> {
   private int capacidade;
   private int tamanho;
   private T[] fila;
-  private int primeiro; // Índice do elemento da frente da fila
-  private int ultimo;  // Índice do último elemento da fila
+  private int primeiro; // indice do elemento da frente da fila
+  private int ultimo;  // indice do último elemento da fila
 
   public FilaEstatica(int capacidade) {
     this.capacidade = capacidade;
